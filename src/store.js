@@ -7,9 +7,20 @@ const store = Vue.observable({
     'fa-brands fa-instagram',
     'fa-brands fa-youtube'
    ],
-   logoIconUrl: '../assets/avada-movers-logo.png',
-   phoneNumber: '1.800.555.67.89'
+   phoneNumber: '1.800.555.67.89',
+   toolbarMenu: [
+    'Home',
+    'Rates',
+    'Testimonials',
+    'FAQ',
+    'Blog',
+    'Contact'
+   ],
+   activeToolbar: 0,
 
+   
 })
 
 export default store
+
+

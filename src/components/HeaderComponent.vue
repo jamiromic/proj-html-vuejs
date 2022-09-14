@@ -1,6 +1,7 @@
 <template>
     <header>
         <TopHeaderComponent/>
+        <HeroComponent/>
 
     </header>
 </template>
@@ -8,6 +9,7 @@
 <script>
     import store from '../store';
     import TopHeaderComponent from './TopHeaderComponent.vue';
+    import HeroComponent from './HeroComponent.vue';
 
     export default {
     name: "HeaderComponent",
@@ -16,14 +18,14 @@
             store: store,
         };
     },
-    components: { TopHeaderComponent }
+    components: { 
+        TopHeaderComponent,
+        HeroComponent
+    }
 }
 </script>
 
 <style lang="scss" scoped>
-    header {
-        background-color: #6ABF17;
-        color: white;
-    }
+    
 
 </style>

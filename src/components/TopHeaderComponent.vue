@@ -1,14 +1,16 @@
 <template>
-    <div class="wrapper_call_us_brands">
-        <div class="call_us">
-            <font-awesome-icon icon="fa-solid fa-phone-flip" />
-            <span class="call_us_text">Call us for a Free Quote: {{ store.phoneNumber }}</span>
+    <div class="header_top_wrapper">
+        <div class="wrapper_call_us_brands">
+            <div class="call_us">
+                <font-awesome-icon icon="fa-solid fa-phone-flip" />
+                <span class="call_us_text">Call us for a Free Quote: {{ store.phoneNumber }}</span>
+            </div>
+            <ul class="brands_lists">
+                <li v-for="item in store.brandsIcon" :key="item">
+                    <font-awesome-icon :icon="item"/>
+                </li>
+            </ul>
         </div>
-        <ul class="brands_lists">
-            <li v-for="item in store.brandsIcon" :key="item">
-                <font-awesome-icon :icon="item"/>
-            </li>
-        </ul>
     </div>
 </template>
 
@@ -28,8 +30,16 @@
 
 <style lang="scss" scoped>
 
-    .wrapper_call_us_brands {
-        max-width: 1400px;
+    .header_top_wrapper {
+
+        background-color: #6ABF17;
+        color: white;
+
+
+
+        .wrapper_call_us_brands {
+        
+        max-width: 1600px;
         margin: 0 auto;
         padding: 1rem 0;
         display: flex;
@@ -40,23 +50,24 @@
 
             .call_us_text {
                 padding-left: 1rem;
-                font-size: 0.90rem;
+                
             }
 
-            .fa-phone-flip {
-                font-size: 0.92rem;
-            }
 
         }
 
         .brands_lists {
             display: flex;
             gap: 1.5rem;
-            font-size: 1.08rem;
+            font-size: 1.20rem;
         }
 
 
     }
+
+    }
+
+    
    
 
 </style>

@@ -1,0 +1,17 @@
+@mixin display_flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin buttons {
+    background-color: #1775BF;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.15rem;
+    letter-spacing: 0.15rem;
+    padding: 1.15rem 2.75rem;
+    border-radius: 999px;
+}

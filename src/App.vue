@@ -16,6 +16,7 @@ export default {
 </script>
 
 <style lang="scss">
-  @import './styles/index.scss'
+  @import './styles/index.scss';
+  @import './styles/mixins.scss';
 
 </style>
