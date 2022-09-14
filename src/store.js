@@ -16,8 +16,6 @@ const store = Vue.observable({
     'Blog',
     'Contact'
    ],
-   activeToolbar: 0,
-
    
 })
 

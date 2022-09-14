@@ -15,3 +15,14 @@
     padding: 1.15rem 2.75rem;
     border-radius: 999px;
 }
+
+@mixin flex_center_column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@mixin subtitle_style {
+    color: #777777;
+}
