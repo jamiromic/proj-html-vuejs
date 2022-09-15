@@ -3,10 +3,10 @@
             <img src='../assets/avada-movers-logo.png' alt="Logo Avada Movers">        
             <ul>
                 <li v-for="item in store.toolbarMenu" :key="item">
-                    <span :class="item === 'Home' ? 'item_menu active' : 'item_menu'" >{{ item }}</span>
+                    <a href="#" :class="item === 'Home' ? 'item_menu active' : 'item_menu'" >{{ item }}</a>
                 </li>
                 <li>
-                    <a href="#">Free Quote</a>
+                    <a class="button" href="#">Free Quote</a>
                </li>
             </ul>
         </div>
@@ -41,7 +41,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            max-width: 1600px;
+            max-width: 1690px;
             padding: 1.5rem 0.50rem;
 
             img {
@@ -51,7 +51,7 @@
 
             ul {
                 display: flex;
-                gap: 3.5rem;
+                gap: 4rem;
                 
                 .item_menu {
                     color: #252525;
@@ -64,9 +64,13 @@
                 }
             }
 
-            a {
+            .button {
                 @include buttons;
 
+            }
+
+            a {
+                text-decoration: none;
             }
 
 

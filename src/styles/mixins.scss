@@ -12,7 +12,7 @@
     font-weight: 900;
     font-size: 1.15rem;
     letter-spacing: 0.15rem;
-    padding: 1.15rem 2.75rem;
+    padding: 1.15rem 2.5rem;
     border-radius: 999px;
 }
 
@@ -24,5 +24,23 @@
 }
 
 @mixin subtitle_style {
-    color: #777777;
+    text-transform: uppercase;
+    color: #AAAAAA;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+@mixin title_green_style {
+    text-transform: capitalize;
+    color: #6ABF17;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+@mixin text_style {
+    color: #626263;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 2.25rem;
+    padding: 1.5rem 0;
 }

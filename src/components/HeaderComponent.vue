@@ -2,7 +2,7 @@
     <header>
         <TopHeaderComponent/>
         <HeroComponent/>
-
+        <GetFreeComponent/>
     </header>
 </template>
 
@@ -10,6 +10,7 @@
     import store from '../store';
     import TopHeaderComponent from './TopHeaderComponent.vue';
     import HeroComponent from './HeroComponent.vue';
+    import GetFreeComponent from './GetFreeComponent.vue';
 
     export default {
     name: "HeaderComponent",
@@ -18,10 +19,11 @@
             store: store,
         };
     },
-    components: { 
-        TopHeaderComponent,
-        HeroComponent
-    }
+    components: {
+    TopHeaderComponent,
+    HeroComponent,
+    GetFreeComponent
+}
 }
 </script>
 

@@ -7,7 +7,7 @@
             </div>
             <ul class="brands_lists">
                 <li v-for="item in store.brandsIcon" :key="item">
-                    <font-awesome-icon :icon="item"/>
+                    <a href="#"><font-awesome-icon :icon="item"/></a>
                 </li>
             </ul>
         </div>
@@ -39,9 +39,9 @@
 
         .wrapper_call_us_brands {
         
-        max-width: 1600px;
+        max-width: 1690px;
         margin: 0 auto;
-        padding: 1rem 0;
+        padding: 1.25rem 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -60,6 +60,10 @@
             display: flex;
             gap: 1.5rem;
             font-size: 1.20rem;
+
+            a {
+                color: white;
+            }
         }
 
 
