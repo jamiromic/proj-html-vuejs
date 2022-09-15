@@ -8,7 +8,6 @@ const store = Vue.observable({
     'fa-brands fa-youtube'
    ],
    phoneNumber: '1.800.555.67.89',
-   logo: 'avada-movers-logo.png',
    toolbarMenu: [
     'Home',
     'Rates',
@@ -33,6 +32,20 @@ const store = Vue.observable({
         photo: 'avada-movers-servicethreephoto-final-400x255.jpg',
         title: 'coast to coast'
     },
+   ],
+   testimonials: [
+    {
+        photo: 'avada-movers-johndoe-final-200x200.jpg',
+        name: 'John Doe'
+    },
+    {
+        photo: 'avada-movers-janedoe-final-200x200.jpg',
+        name: 'Jane Doe'
+    },
+    {
+        photo: 'avada-movers-johnsmith-final-200x200.jpg',
+        name: 'John Smith'
+    }
    ]
    
 })

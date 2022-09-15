@@ -40,9 +40,10 @@
 
     .container_full_service {
         max-width: 1690px;
-        height: 1280px;
+        height: 1350px;
         margin: 0 auto;
         @include flex_center_column;
+        padding-bottom: 3rem;
         
 
         .title_box {

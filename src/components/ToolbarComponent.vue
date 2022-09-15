@@ -1,6 +1,6 @@
 <template>
         <div class="wrapper_toolbar">
-            <img :src="require(`..//assets/${store.logo}`)" alt="Logo Avada Movers">    
+            <img src='..//assets/avada-movers-logo.png' alt="Logo Avada Movers">    
             <ul>
                 <li v-for="item in store.toolbarMenu" :key="item">
                     <a href="#" :class="item === 'Home' ? 'item_menu active' : 'item_menu'" >{{ item }}</a>
