@@ -1,12 +1,15 @@
 <template>
     <main>
         <ReadTestimonialsComponent/>
+        <FullServiceSection/>
     </main>
 </template>
 
 <script>
     import store from '../store';
     import ReadTestimonialsComponent from './ReadTestimonialsComponent.vue';
+    import FullServiceSection from './FullServiceSection.vue';
+
     export default {
     name: "MainComponent",
     data() {
@@ -14,7 +17,7 @@
             store: store,
         };
     },
-    components: { ReadTestimonialsComponent }
+    components: { ReadTestimonialsComponent, FullServiceSection }
 }
 </script>
 
