@@ -30,7 +30,7 @@
             @include flex_center_column;
             gap: 1rem;
             height: 700px;
-            max-width: 1000px;
+            max-width: 900px;
             margin: 0 auto;
             text-align: center;
 

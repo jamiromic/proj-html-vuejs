@@ -46,6 +46,26 @@ const store = Vue.observable({
         photo: 'avada-movers-johnsmith-final-200x200.jpg',
         name: 'John Smith'
     }
+   ],
+   footerMenuLeft: [
+    'home',
+    'rates',
+    'testimonials',
+    'blog',
+    'free quote'
+   ],
+   footerMenuRight: [
+    'heading out to college?',
+    'moving your business',
+    'outstanding quality',
+    'cost of moving',
+    'best moving tips'
+   ],
+   footerCredits: [
+    '© Copyright 2012 - 2020',
+    'Avada Theme by ThemeFusion',
+    'All Right Reserved',
+    'Powered by WordPress'
    ]
    
 })

@@ -54,8 +54,12 @@
                     font-size: 1.28rem;
                 }
 
+                .item_menu:hover {
+                    color: #6ABF17;
+                }
+
                 .active {
-                    color: #6ABF17
+                    color: #6ABF17;
                 }
             }
 

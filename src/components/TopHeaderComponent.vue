@@ -29,6 +29,7 @@
 </script>
 
 <style lang="scss" scoped>
+    @import '../styles/mixins.scss';
 
     .header_top_wrapper {
 
@@ -57,14 +58,11 @@
         }
 
         .brands_lists {
-            display: flex;
-            gap: 1.5rem;
-            font-size: 1.20rem;
+            @include brand_icons;
 
-            a {
-                color: white;
-            }
         }
+
+
 
 
     }
