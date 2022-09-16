@@ -29,8 +29,8 @@
         .free_quote_wrapper {
             @include flex_center_column;
             gap: 1rem;
-            height: 700px;
-            max-width: 900px;
+            padding: 12rem 0;
+            @include small_container;
             margin: 0 auto;
             text-align: center;
 

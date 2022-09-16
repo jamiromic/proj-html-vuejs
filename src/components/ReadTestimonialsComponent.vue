@@ -32,8 +32,8 @@
         .read_testimonials_wrapper {
             @include flex_center_column;
             gap: 1rem;
-            height: 800px;
-            max-width: 900px;
+            padding: 13rem 0;
+            @include small_container;
             margin: 0 auto;
             text-align: center;
 

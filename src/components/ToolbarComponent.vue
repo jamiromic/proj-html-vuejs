@@ -36,7 +36,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            max-width: 1690px;
+            @include big_container;
             padding: 1.5rem 0.50rem;
 
             img {

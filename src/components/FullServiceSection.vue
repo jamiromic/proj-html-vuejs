@@ -39,16 +39,15 @@
     @import '../styles/mixins.scss';
 
     .container_full_service {
-        max-width: 1690px;
-        height: 1350px;
+        @include big_container;
+        padding: 13rem 0;
         margin: 0 auto;
         @include flex_center_column;
-        padding-bottom: 3rem;
         
 
         .title_box {
             text-align: center;
-            padding: 5rem 0;
+            padding: 5rem 0 4rem;
 
             .subtitle {
                 @include subtitle_style;
@@ -56,7 +55,9 @@
 
             .title {
                 @include title_green_style;
-                padding-top: 1rem
+                padding-top: 1rem;
+                font-size: 3.5rem;
+                
             }
 
         }
@@ -71,7 +72,6 @@
                 flex-direction: column;
                 background-color: #F2F5F8;
                 width: 480px;
-                height: 720px;
 
                 .photo {
                     text-align: center;
@@ -88,17 +88,20 @@
                     background-color: white;
                     margin: 1.5rem;
                     height: 100%;
+                    padding: 2rem 1rem;
 
                     .title {
                         font-size: 2.15rem;
                         text-transform: capitalize;
                         color: #1775BF;
                         font-weight: 800;
+                        padding-top: 1rem
                     }
 
                     .text {
                         @include text_style;
                         text-align: center;
+                        padding-bottom: 2.5rem;
                     }
 
                     a {

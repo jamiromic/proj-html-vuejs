@@ -40,11 +40,13 @@
     .container_bg_happy_customers {
         background-image: url(../assets/avada-movers-testimonial-background.jpg);
         background-size: cover;
+        background-size: 130%;
+        background-position: top;
         
 
         .container_happy_customers {
-        max-width: 1690px;
-        height: 1300px;
+        @include big_container;
+        padding: 14rem 0;
         margin: 0 auto;
         @include flex_center_column;
         gap: 4rem;
@@ -66,6 +68,7 @@
             @include display_flexbox;
             gap: 4rem;
             flex-wrap: wrap;
+            padding-bottom: 4rem;
 
             .card {
                 @include flex_center_column;

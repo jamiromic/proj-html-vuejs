@@ -34,8 +34,7 @@
         background-size: contain;
         background-size: 130%;
         background-position: top;
-        background-repeat: no-repeat;
-        height: 1050px;
+        padding-bottom: 22rem;
         
         
         

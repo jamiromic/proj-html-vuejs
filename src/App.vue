@@ -23,6 +23,5 @@ export default {
 
 <style lang="scss">
   @import './styles/index.scss';
-  @import './styles/mixins.scss';
 
 </style>

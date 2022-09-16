@@ -1,3 +1,10 @@
+@mixin big_container {
+    max-width: 1690px;
+}
+
+@mixin small_container {
+    max-width: 900px;
+}
 @mixin display_flexbox {
     display: flex;
     justify-content: center;

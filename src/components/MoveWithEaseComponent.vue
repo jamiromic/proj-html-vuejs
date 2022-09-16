@@ -51,15 +51,18 @@
 
                 .subtitle {
                     text-transform: uppercase;
-                    font-weight: 700;
+                    font-weight: 900;
+                    font-size: 1.25rem;
 
                 }
                 
                 .title {
-                    font-size: 3rem;
+                    font-size: 3.75rem;
+                    font-weight: 900;
                     text-transform: capitalize;
-                    border-bottom: 0.10px solid rgba(255, 255, 255, 0.5);
-                    padding-bottom: 1rem;
+                    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+                    padding-bottom: 1.5rem;
+                    padding: 0 1rem 1.5rem 1rem;
                     margin-top: -2rem;
                     
 
@@ -67,7 +70,7 @@
                 }
 
                 .text {
-                    font-size: 1.25rem;
+                    font-size: 1.30rem;
                     padding: 0rem 3rem ;
                     line-height: 2.5rem;
                     text-align: center;
@@ -76,6 +79,8 @@
 
                 a {
                     @include buttons;
+                    padding: 1.5rem 3.5rem;
+                    font-size: 1.35rem;
                    
 
                 }

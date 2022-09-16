@@ -39,13 +39,12 @@
 
 
         .wrapper_call_us_brands {
-        
-        max-width: 1690px;
-        margin: 0 auto;
-        padding: 1.25rem 0;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+            @include big_container;
+            margin: 0 auto;
+            padding: 1.25rem 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
 
         .call_us {
 
