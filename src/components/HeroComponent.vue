@@ -31,17 +31,18 @@
 
     .wrapper_hero {
         background-image: url(../assets/avada-movers-homeherobackground-final.jpg);
-        background-size: 132.5%;
+        background-size: contain;
+        background-size: 130%;
         background-position: top;
-        background-position-y: 15%;
-        background-position-x: 43%;
+        background-repeat: no-repeat;
+        height: 1050px;
         
         
         
         .hero_title {
             text-transform: uppercase;
-            height: 870px;
             @include flex_center_column;
+            padding-top: 22.5rem;
 
             .title {
                 color: #252525;

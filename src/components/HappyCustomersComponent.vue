@@ -65,6 +65,7 @@
         .card_wrapper {
             @include display_flexbox;
             gap: 4rem;
+            flex-wrap: wrap;
 
             .card {
                 @include flex_center_column;

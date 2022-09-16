@@ -64,6 +64,7 @@
         .wrapper_cards {
             @include display_flexbox;
             gap: 4rem;
+            flex-wrap: wrap;
 
             .card {
                 display: flex;

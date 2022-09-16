@@ -53,6 +53,7 @@
         padding: 6rem 0;
         background-color: white;
         color: black;
+        flex-wrap: wrap;
 
         .link_menu {
             width: 490px;

@@ -46,6 +46,7 @@
 
             ul {
                 display: flex;
+                flex-wrap: wrap;
                 gap: 4rem;
                 
                 .item_menu {
