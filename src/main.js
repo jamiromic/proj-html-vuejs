@@ -15,9 +15,10 @@ import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faPhoneFlip } from '@fortawesome/free-solid-svg-icons';
 import { faPaperPlane } from '@fortawesome/free-regular-svg-icons';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 
 /* add icons to the library */
-library.add(faFacebookF,faTwitter,faInstagram,faYoutube,faPhoneFlip,faPaperPlane,faChevronRight)
+library.add(faFacebookF,faTwitter,faInstagram,faYoutube,faPhoneFlip,faPaperPlane,faChevronRight,faChevronUp)
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)

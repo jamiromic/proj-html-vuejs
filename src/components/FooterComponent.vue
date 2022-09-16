@@ -13,6 +13,8 @@
                 </li>
             </ul>
         </div>
+        <font-awesome-icon icon="fa-solid fa-chevron-up" />
+    
         
 
 
@@ -44,6 +46,7 @@
         background-color: #6ABF17;
         padding: 1.25rem 0 0;
         color: white;
+        position: relative;
 
         .container_footer_bottom {
             @include flex_center_column;
@@ -73,6 +76,15 @@
                 padding-bottom: 3rem;
             }
 
+        }
+
+        .fa-chevron-up {
+            position: absolute;
+            right: 100px;
+            bottom: 0px;
+            padding: 0.90rem 1.4rem;
+            background-color: #394132;
+            border-radius: 5px 5px 0 0;
         }
 
         
