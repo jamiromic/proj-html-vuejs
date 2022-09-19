@@ -25,7 +25,7 @@
     @import '../styles/mixins.scss';
 
     .container_move_with_ease {
-        height: 990px;
+        height: 1130px;
         background-image: url('../assets/avada-movers-movewithease-background-new.jpg');
         background-size: cover;
         position: relative;
