@@ -41,7 +41,7 @@
         .wrapper_call_us_brands {
             @include big_container;
             margin: 0 auto;
-            padding: 1.25rem 0;
+            padding: 1.25rem 0.5rem;
             display: flex;
             justify-content: space-between;
             align-items: center;

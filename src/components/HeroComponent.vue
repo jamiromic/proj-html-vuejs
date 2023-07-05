@@ -31,10 +31,10 @@
 
     .wrapper_hero {
         background-image: url(../assets/avada-movers-homeherobackground-final.jpg);
-        background-size: contain;
-        background-size: 130%;
+        background-size: cover;
         background-position: top;
-        padding-bottom: 22rem;
+        background-repeat: no-repeat;
+        height: 1400px;
         
         
         

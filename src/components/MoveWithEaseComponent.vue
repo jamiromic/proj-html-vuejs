@@ -36,7 +36,7 @@
             height: 550px;
             margin: 0 auto;
             position: absolute;
-            right: 450px;
+            right: 200px;
             top: 220px;
 
             .move_with_ease_box {

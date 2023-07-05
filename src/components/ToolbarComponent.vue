@@ -1,7 +1,8 @@
 <template>
         <div class="wrapper_toolbar">
-            <img src='..//assets/avada-movers-logo.png' alt="Logo Avada Movers">    
+            
             <ul>
+                <img class="logo" src='..//assets/avada-movers-logo.png' alt="Logo Avada Movers">
                 <li v-for="item in store.toolbarMenu" :key="item">
                     <a href="#" :class="item === 'Home' ? 'item_menu active' : 'item_menu'" >{{ item }}</a>
                 </li>
@@ -34,20 +35,27 @@
         .wrapper_toolbar {
             margin: 0 auto;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
             @include big_container;
             padding: 1.5rem 0.50rem;
+            
+            .logo {
+                padding-right: 50px;
 
-            img {
+                img {
                 height: 90px;
+                }
 
             }
+            
 
             ul {
                 display: flex;
                 flex-wrap: wrap;
                 gap: 4rem;
+                align-items: center;
+                justify-content: center;
                 
                 .item_menu {
                     color: #252525;
@@ -66,7 +74,6 @@
 
             .button {
                 @include buttons;
-
             }
 
             a {
